@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        User user = new User("fzbzfbvbf","dzbgdzfdfzb","zfgvbfdb");
+        System.out.println(user.getLogin()+" "+user.getPassword()+" "+user.getConfirmPassword());
     }
 }
